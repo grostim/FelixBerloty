@@ -60,6 +60,8 @@ FelixBerloty/
 │   ├── Page 01.jpg
 │   ├── ...
 │   └── Page 72.jpg
+├── Illustrations/                    # Images éditoriales du livre
+│   └── Portrait_Felix_Berloty.jpg    # Portrait utilisé sur la couverture
 ├── Souvenirs de Jeunesse de Felix Berloty.tex   # Source LaTeX principal du document
 ├── CONVENTIONS_TRANSCRIPTION.md     # Guide des conventions éditoriales et typographiques
 ├── README.md                        # Présentation du projet et liens de téléchargement

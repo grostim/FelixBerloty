@@ -9,6 +9,7 @@ Ce document consigne l'ensemble des règles éditoriales, typographiques, techni
 ### 1.1 Dépôt Git
 - Le projet est versionné sous Git dans le répertoire racine.
 - Les scans originaux du tapuscrit sont conservés dans `Originaux/` (`Couverture.jpg`, `Page 01.jpg` à `Page 72.jpg`).
+- Le portrait utilisé sur la page de titre est conservé dans `Illustrations/Portrait_Felix_Berloty.jpg` (média GrampsWeb O0390).
 - Le document principal est `Souvenirs de Jeunesse de Felix Berloty.tex`.
 - Les fichiers auxiliaires LaTeX (`*.aux`, `*.log`, `*.toc`, etc.) sont exclus via `.gitignore`.
 
@@ -67,7 +68,7 @@ Le workflow CI injecte le numéro de release via `\releaseversion` (défini par 
 
 ### 3.1 Préservation de la structure et du séquençage
 - Le tapuscrit comporte une page de couverture et **72 pages** correspondant aux scans (`Page 01.jpg` à `Page 72.jpg`).
-- La couverture n'est pas transcrite : seul le titre normalisé en page de titre LaTeX en rend compte.
+- La couverture n'est pas transcrite : le titre normalisé et le portrait d'illustration sont intégrés à la page de titre LaTeX.
 - Le document original est organisé en grandes sections numérotées à la machine (ex. `I) Naissance et Enfance`). Chaque grande section correspond à un `\chapter{...}` du document LaTeX, avec un bloc de commentaires standardisé :
   ```latex
   % ===================================================
