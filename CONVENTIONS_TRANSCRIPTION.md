@@ -134,18 +134,16 @@ Le workflow CI injecte le numéro de release via `\releaseversion` (défini par 
 
 ## 5. État d'avancement de la transcription
 
-Découpage provisoire (à affiner à la lecture) : chaque grande section numérotée du tapuscrit devient un chapitre.
+Découpage arrêté (issue #7) : chaque sous-titre tapé du tapuscrit devient un chapitre numéroté, avec sa période quand elle est connue ; les sous-titres années (`1910--1911`, `1912--1913`) sont conservés tels quels.
 
 | Vue | Fichier source | Contenu | Statut |
 | :---: | :---: | :--- | :---: |
 | Couverture | `Originaux/Couverture.jpg` | Page de couverture (titre, dates) | Non transcrite (titre normalisé en page de titre) |
-| p. 1 | `Originaux/Page 01.jpg` | I) Naissance et Enfance | Transcrite |
-| p. 2–11 | `Originaux/Page 02.jpg` … `Page 11.jpg` | Suite de « Naissance et Enfance » (résidences, Favorite, guerre de 1870, enfance) | Transcrites — **ordre logique : 03 avant 02** (inversion matérielle du carnet à spirale, raccords vérifiés) |
-| p. 12–21 | `Originaux/Page 12.jpg` … `Page 21.jpg` | Assassinat de Sadi Carnot (1894), marins russes, Première Scolarité, Mongré, Externat rue de Sèze, équitation, prix et vie matérielle | Transcrites — ordre séquentiel, raccords continus |
-| p. 22–31 | `Originaux/Page 22.jpg` … `Page 31.jpg` | Travaux place de la Bourse, tramways électriques, Tamaris, réceptions, premiers films Lumière, l'automobile (1898), voyage en Bavière et Autriche (Oberammergau 1900) | Transcrites — ordre séquentiel, raccords continus |
-| p. 32–41 | `Originaux/Page 32.jpg` … `Page 41.jpg` | Retour rue Ste Hélène (1900), loi de 1901, cession de l'étude, achat des Massues, sports (cheval, escrime, patinage), changement de siècle, voyage à Oran et Tlemcen (1902) | Transcrites — ordre séquentiel, raccords continus |
-| p. 42–51 | `Originaux/Page 42.jpg` … `Page 51.jpg` | Installation aux Massues, voisins, l'Audibert-Lavirotte (1901), permis à 15 ans (07/08/1902), Berliet torpédo, bac à Aix (1903), croisière en Écosse (1904), études supérieures, maladie du Père | Transcrites — **ordre logique : 50 → 49 → 48 entre 47 et 51** (inversion matérielle du carnet, raccords vérifiés) |
-| p. 52–61 | `Originaux/Page 52.jpg` … `Page 61.jpg` | Service militaire (23 R.I. Bourg, 1905), mort du Père (15/10/1905), peloton des dispensés, pleurésie et convalescence, manœuvres de Langres, fort de Joux, libération (Pilain 24X35), généraux Pau et Langle de Carry, reprise des études et escrime | Transcrites — ordre séquentiel, raccords continus |
-| p. 62–72 | `Originaux/Page 62.jpg` … `Page 72.jpg` | Fin des études (licence ès sciences, droit), mariage d'Elisabeth (1910), voyages (Dolomites, Belgique-Hollande, Lot), périodes militaires (Belfort), rencontre des Roque, mariage avec Lucy Roque (25/11/1913), voyage de noces (Monténégro, Corfou) jusqu'au 1er janvier 1914 | Transcrites — ordre séquentiel, raccords continus ; **fin du tapuscrit** |
+| p. 1–13 | `Originaux/Page 01.jpg` … `Page 13.jpg` | **Ch. 1 — Naissance et Enfance (1886--1894)** : naissance Saint-Paul, famille de notaires, parenté (Neyrat, Boisard, Demoustier, Boffard), Favorite, guerre de 1870, enfance, débuts de scolarité | Transcrites — **ordre logique : 03 avant 02** (inversion matérielle du carnet à spirale, raccords vérifiés) |
+| p. 14–48 | `Originaux/Page 14.jpg` … `Page 48.jpg` | **Ch. 2 — Première Scolarité (1894--1904)** : assassinat de Sadi Carnot, marins russes, Externat St Joseph, Mongré, rue de Sèze, équitation, Massues, sports, tramways, autos (permis à 15 ans, 1902), bac à Aix, croisière en Écosse (1904) | Transcrites — ordre séquentiel ; **ordre logique : 50 → 49 → 48 entre 47 et 51** (inversion matérielle du carnet, raccords vérifiés) |
+| p. 49–51 | `Originaux/Page 49.jpg` … `Page 51.jpg` | **Ch. 3 — Études Supérieures -- Facultés (1904--1905)** : Faculté Catholique (chimie puis physique), clerc à l'étude, maladie du Père | Transcrites — ordre séquentiel, raccords continus |
+| p. 52–65 | `Originaux/Page 52.jpg` … `Page 65.jpg` | **Ch. 4 — Service Militaire -- Mort de mon Père (1905--1910)** : 23 R.I. Bourg (1905), mort du Père (15/10/1905), peloton des dispensés, pleurésie et convalescence, manœuvres de Langres, fort de Joux, libération, reprise des études et escrime, mariage d'Elisabeth (1910) | Transcrites — ordre séquentiel, raccords continus |
+| p. 65–67 | `Originaux/Page 65.jpg` … `Page 67.jpg` | **Ch. 5 — 1910--1911** : droit à la Faculté Catholique, clerc non rétribué, vie aux Massues, Dolomites | Transcrites — ordre séquentiel, raccords continus |
+| p. 68–72 | `Originaux/Page 68.jpg` … `Page 72.jpg` | **Ch. 6 — 1912--1913** : installation place de la Bourse, période militaire de Belfort, rencontre des Roque, fiançailles, voyage de noces (Monténégro, Corfou) jusqu'au 1er janvier 1914 | Transcrites — ordre séquentiel, raccords continus ; **fin du tapuscrit** |
 
 **La transcription intégrale est terminée** : couverture non transcrite (titre normalisé en page de titre), 72/72 pages transcrites et reliées par des raccords vérifiés mot à mot.
