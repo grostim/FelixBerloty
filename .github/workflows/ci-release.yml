@@ -41,15 +41,15 @@ jobs:
           MINOR=${MINOR:-0}
           PATCH=${PATCH:-0}
 
-          COMMIT_MSG=$(git log -1 --pretty=%B)
-          echo "Dernier message de commit : $COMMIT_MSG"
+          COMMIT_TITLE=$(git log -1 --pretty=%s)
+          echo "Titre du commit : $COMMIT_TITLE"
 
-          # Détection du type de release selon la convention
-          if echo "$COMMIT_MSG" | grep -qiE "^feat|transcription"; then
+          # Détection du type de release selon la convention (titre ancré uniquement)
+          if echo "$COMMIT_TITLE" | grep -qiE "^feat"; then
             NEW_MAJOR=$((MAJOR + 1))
             NEW_TAG="v${NEW_MAJOR}.0.0"
             REL_TYPE="Release Majeure (Nouvelle transcription)"
-          elif echo "$COMMIT_MSG" | grep -qiE "^(fix|style|refactor|docs|correction)"; then
+          elif echo "$COMMIT_TITLE" | grep -qiE "^(fix|style|refactor|docs|correction)"; then
             NEW_MINOR=$((MINOR + 1))
             NEW_TAG="v${MAJOR}.${NEW_MINOR}.0"
             REL_TYPE="Release Mineure (Corrections / Ajustements)"
@@ -62,6 +62,7 @@ jobs:
           echo "Nouveau tag : $NEW_TAG ($REL_TYPE)"
           echo "tag=$NEW_TAG" >> "$GITHUB_OUTPUT"
           echo "rel_type=$REL_TYPE" >> "$GITHUB_OUTPUT"
+          COMMIT_MSG=$(git log -1 --pretty=%B)
           DELIMITER="ghadelimiter_$(date +%s%N)_${RANDOM}"
           while grep -Fqx "$DELIMITER" <<< "$COMMIT_MSG"; do
             DELIMITER="${DELIMITER}_x"
