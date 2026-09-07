@@ -100,13 +100,14 @@ Le workflow CI injecte le numéro de release via `\releaseversion` (défini par 
   - espacements mécaniques anormaux : `dit ,bien` → `dit, bien`, `naissance,par` → `naissance, par` ;
   - césures de fin de ligne réunies : `Bonaven-ture` → `Bonaventure`.
 - **Corrections des erreurs de syntaxe et d'orthographe manifestes** : accords grammaticaux évidents (`mariée` → `mariés`), accents manquants évidents (`Aout` → `Août`), fautes banales (`plustôt` → `plutôt`, `prénons` → `prénoms`).
-- **Conservation stricte** : vocabulaire et tournures d'époque, noms propres en capitales (`POULAT`, `DEMOUSTIER`, `BOFFARD`), abréviations (`St`, `Ste`, `5me`, `23 hrs 30`), guillemets et graphies d'époque.
+- **Conservation stricte** : vocabulaire et tournures d'époque, abréviations (`St`, `Ste`, `5me`, `23 hrs 30`), guillemets et graphies d'époque.
 - Les mots coupés en fin de ligne sont réunis lorsque la lecture est certaine ; en cas de doute, note du transcripteur.
 - Les passages illisibles sont signalés `[ILLISIBLE: hypothèse]` avec note de bas de page si un contexte aide à la lecture.
 - Les citations latines ou étrangères reçoivent une note de bas de page avec source et traduction, mention `(Note du transcripteur)`.
 
 ### 3.7 Casse des noms propres
-- Les noms propres tapés en capitales intégrales (ex. `DEMOUSTIER`, `POULAT`, `BOFFARD`, `BERLOTY`) sont conservés en capitales dans la transcription : le tapuscrit les met ainsi en évidence de façon constante et significative.
+- Dans le tapuscrit d'origine, les noms propres de personnes apparaissent en capitales d'imprimerie intégrales (ex. `DEMOUSTIER`, `POULAT`, `BOFFARD`, `BERLOTY`).
+- **Règle de normalisation :** tous les noms propres de personnes, de lieux ou d'institutions sont uniformisés en bas de casse avec initiale majuscule (Title Case) : `Demoustier`, `Poulat`, `Boffard`, `Berloty`, `Brunet-Lecomte`, `Neyrat`. Seuls les chiffres romains (ex. `Louis XI`) et les sigles d'époque (ex. `OTL`) conservent des majuscules multiples.
 - Les prénoms et noms au fil du texte suivent la casse du tapuscrit (ex. `Felix` sans accent sur la majuscule, conformément au texte tapé).
 
 ---
