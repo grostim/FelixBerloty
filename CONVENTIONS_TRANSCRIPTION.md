@@ -138,4 +138,5 @@ Découpage provisoire (à affiner à la lecture) : chaque grande section numéro
 | :---: | :---: | :--- | :---: |
 | Couverture | `Originaux/Couverture.jpg` | Page de couverture (titre, dates) | Non transcrite (titre normalisé en page de titre) |
 | p. 1 | `Originaux/Page 01.jpg` | I) Naissance et Enfance | Transcrite |
-| p. 2–72 | `Originaux/Page 02.jpg` … `Page 72.jpg` | Suite du tapuscrit | Non transcrite |
+| p. 2–11 | `Originaux/Page 02.jpg` … `Page 11.jpg` | Suite de « Naissance et Enfance » (résidences, Favorite, guerre de 1870, enfance) | Transcrites — **ordre logique : 03 avant 02** (inversion matérielle du carnet à spirale, raccords vérifiés) |
+| p. 12–72 | `Originaux/Page 12.jpg` … `Page 72.jpg` | Suite du tapuscrit | Non transcrite |

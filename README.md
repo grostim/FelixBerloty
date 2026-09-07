@@ -37,8 +37,8 @@ Le tapuscrit est conservé dans les archives familiales ; les scans originaux (c
 
 ## 📊 État d'avancement de la transcription
 
-- **Pages transcrites** : **1 / 72**.
-- **Dernière page transcrite** : **p. 1** (*I) Naissance et Enfance*).
+- **Pages transcrites** : **11 / 72** (p. 1, puis p. 2–11).
+- **Particularité de séquençage** : la numérotation des scans suit l'ordre matériel du carnet à spirale ; les pages 02 et 03 sont inversées par rapport à l'ordre de lecture (le texte s'enchaîne de la page 03 vers la page 02 — raccords vérifiés mot à mot).
 - **Statut** : 🚧 Transcription en cours.
 
 Consultez le tableau détaillé dans [`CONVENTIONS_TRANSCRIPTION.md`](./CONVENTIONS_TRANSCRIPTION.md#5-état-davancement-de-la-transcription).
