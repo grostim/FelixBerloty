@@ -38,6 +38,7 @@ Le tapuscrit est conservé dans les archives familiales ; les scans originaux (c
 ## 📊 État d'avancement de la transcription
 
 - **Pages transcrites** : **72 / 72** — ✅ **Transcription complète**.
+- **Découpage** : 6 chapitres numérotés correspondant aux sous-titres tapés du tapuscrit (issue #7) — *Naissance et Enfance (1886–1894) · Première Scolarité (1894–1904) · Études Supérieures -- Facultés (1904–1905) · Service Militaire -- Mort de mon Père (1905–1910) · 1910–1911 · 1912–1913*.
 - **Particularité de séquençage** : la numérotation des scans suit l'ordre matériel du carnet à spirale, pas l'ordre de lecture. Deux inversions vérifiées mot à mot : **03 avant 02** (p. 2–11) et **50 → 49 → 48 entre 47 et 51** (p. 42–51). Tout le reste est séquentiel, raccords continus.
 - **Statut** : ✅ Transcription intégrale terminée (v6.0.0).
 
