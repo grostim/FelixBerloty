@@ -37,8 +37,8 @@ Le tapuscrit est conservé dans les archives familiales ; les scans originaux (c
 
 ## 📊 État d'avancement de la transcription
 
-- **Pages transcrites** : **41 / 72** (p. 1–31, puis p. 32–41).
-- **Particularité de séquençage** : la numérotation des scans suit l'ordre matériel du carnet à spirale ; les pages 02 et 03 sont inversées par rapport à l'ordre de lecture (le texte s'enchaîne de la page 03 vers la page 02 — raccords vérifiés mot à mot). Pages 12–41 : ordre séquentiel, raccords tous continus.
+- **Pages transcrites** : **51 / 72** (p. 1–41, puis p. 42–51).
+- **Particularité de séquençage** : la numérotation des scans suit l'ordre matériel du carnet à spirale, pas l'ordre de lecture. Deux inversions vérifiées mot à mot : **03 avant 02** (p. 2–11) et **50 → 49 → 48 entre 47 et 51** (p. 42–51). Le reste est séquentiel.
 - **Statut** : 🚧 Transcription en cours.
 
 Consultez le tableau détaillé dans [`CONVENTIONS_TRANSCRIPTION.md`](./CONVENTIONS_TRANSCRIPTION.md#5-état-davancement-de-la-transcription).
