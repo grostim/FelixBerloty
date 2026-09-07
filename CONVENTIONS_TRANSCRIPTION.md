@@ -92,10 +92,16 @@ Le workflow CI injecte le numéro de release via `\releaseversion` (défini par 
 - Toutes les notes tapées de l'auteur sont scrupuleusement préservées via `\footnote{...}`.
 - Les notes ajoutées par le transcripteur (lecture incertaine, clarification, référence) doivent porter la mention explicite `(Note du transcripteur)`.
 
-### 3.6 Fidélité au texte dactylographié
-- L'orthographe, la ponctuation dense et les particularités du tapuscrit (`I` majuscule pour `1`, espaces avant virgules, abréviations `5me`, `St Paul`, `Ste Vierge`) sont **conservées telles quelles** : ce projet transcrit, il ne modernise pas.
-- Les mots coupés en fin de ligne par la machine à écrire (césures sans tiret ou tiret simple) sont réunis sans commentaire lorsque la lecture est certaine ; en cas de doute, note du transcripteur.
-- Les passages illisibles sont signalés `[ILLISIBLE]` avec note de bas de page si un contexte aide à la lecture.
+### 3.6 Fidélité au texte et corrections
+- Transcription réalisée par **agy** avec le modèle **Gemini 3.1 Pro** (`gemini-3.1-pro-high`), en lecture visuelle directe des scans à haute résolution ; pas d'OCR parallèle ni de double lecture.
+- **Corrections systématiques des erreurs mécaniques** de la machine à écrire :
+  - lettre `I` majuscule tapée à la place du chiffre `1` dans les nombres et dates : `I886` → `1886`, `I920` → `1920`, `IO` → `10` ;
+  - espacements mécaniques anormaux : `dit ,bien` → `dit, bien`, `naissance,par` → `naissance, par` ;
+  - césures de fin de ligne réunies : `Bonaven-ture` → `Bonaventure`.
+- **Corrections des erreurs de syntaxe et d'orthographe manifestes** : accords grammaticaux évidents (`mariée` → `mariés`), accents manquants évidents (`Aout` → `Août`), fautes banales (`plustôt` → `plutôt`, `prénons` → `prénoms`).
+- **Conservation stricte** : vocabulaire et tournures d'époque, noms propres en capitales (`POULAT`, `DEMOUSTIER`, `BOFFARD`), abréviations (`St`, `Ste`, `5me`, `23 hrs 30`), guillemets et graphies d'époque.
+- Les mots coupés en fin de ligne sont réunis lorsque la lecture est certaine ; en cas de doute, note du transcripteur.
+- Les passages illisibles sont signalés `[ILLISIBLE: hypothèse]` avec note de bas de page si un contexte aide à la lecture.
 - Les citations latines ou étrangères reçoivent une note de bas de page avec source et traduction, mention `(Note du transcripteur)`.
 
 ### 3.7 Casse des noms propres
@@ -113,8 +119,8 @@ Le workflow CI injecte le numéro de release via `\releaseversion` (défini par 
 - Utiliser le double tiret pour les plages temporelles : `(1900--1920)`, `(1886--1914)`.
 
 ### 4.3 Abréviations et exposants
-- Conserver les formes du tapuscrit : `5me`, `I0`, `I920` (le `I` dactylographié pour `1` est conservé dans le texte transcrit).
-- Les noms de saints conservent la graphie du tapuscrit (`St Paul`, `Ste Vierge`).
+- Conserver les abréviations du tapuscrit : `5me`, `St Paul`, `Ste Vierge`, `23 hrs 30`.
+- Les nombres et dates sont normalisés : le `I` majuscule tapé à la place du chiffre `1` est corrigé (`I886` → `1886`, `I87I` → `1871`).
 
 ### 4.4 Ligatures et caractères spéciaux
 - Utiliser les ligatures françaises : `cœur`, `sœur`, `œuvre`, `vœu` (quand le tapuscrit les porte).

@@ -70,8 +70,8 @@ FelixBerloty/
 
 ## 🛠 Conventions et Principes d'Édition
 
-1. **Fidélité au texte et corrections manuscrites** : La transcription intègre le texte final en tenant compte de toutes les ratures et ajouts manuscrits portés sur le tapuscrit.
-2. **Fidélité au texte dactylographié** : Orthographe, ponctuation et graphies du tapuscrit sont conservées telles quelles ; ce projet transcrit, il ne modernise pas.
+1. **Transcription par agy (Gemini 3.1 Pro)** : lecture visuelle directe des scans haute résolution ; erreurs mécaniques (I pour 1, espacements, césures) et erreurs de syntaxe manifestes corrigées ; vocabulaire, tournures et graphies d'époque conservés.
+2. **Fidélité au texte et corrections manuscrites** : La transcription intègre le texte final en tenant compte de toutes les ratures et ajouts manuscrits portés sur le tapuscrit.
 3. **Notes de bas de page** : Notes de l'auteur conservées via `\footnote{...}` ; notes du transcripteur explicitement marquées `(Note du transcripteur)`.
 4. **Commits conventionnels en français** : Chaque transcription de page ou correction fait l'objet d'un commit unitaire (`feat: ...`, `fix: ...`, `docs: ...`).
 5. **Gestion automatisée des releases** :
