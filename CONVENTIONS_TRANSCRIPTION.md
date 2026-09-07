@@ -140,4 +140,5 @@ Découpage provisoire (à affiner à la lecture) : chaque grande section numéro
 | p. 1 | `Originaux/Page 01.jpg` | I) Naissance et Enfance | Transcrite |
 | p. 2–11 | `Originaux/Page 02.jpg` … `Page 11.jpg` | Suite de « Naissance et Enfance » (résidences, Favorite, guerre de 1870, enfance) | Transcrites — **ordre logique : 03 avant 02** (inversion matérielle du carnet à spirale, raccords vérifiés) |
 | p. 12–21 | `Originaux/Page 12.jpg` … `Page 21.jpg` | Assassinat de Sadi Carnot (1894), marins russes, Première Scolarité, Mongré, Externat rue de Sèze, équitation, prix et vie matérielle | Transcrites — ordre séquentiel, raccords continus |
-| p. 22–72 | `Originaux/Page 22.jpg` … `Page 72.jpg` | Suite du tapuscrit | Non transcrite |
+| p. 22–31 | `Originaux/Page 22.jpg` … `Page 31.jpg` | Travaux place de la Bourse, tramways électriques, Tamaris, réceptions, premiers films Lumière, l'automobile (1898), voyage en Bavière et Autriche (Oberammergau 1900) | Transcrites — ordre séquentiel, raccords continus |
+| p. 32–72 | `Originaux/Page 32.jpg` … `Page 72.jpg` | Suite du tapuscrit | Non transcrite |
